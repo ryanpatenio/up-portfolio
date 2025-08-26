@@ -29,4 +29,19 @@
   .hover-zoom-in:hover {
     transform: scale(1.05); /* hover:scale-105 */
   }
+  .bg-shadow-primary {
+    @apply shadow-[0_0_20px_#E16F8C];
+  }
+  .text-shadow-primary {
+     @apply [text-shadow:0_0_5px_#E16F8C];
+  }
+  /* globals.css */
+  .active-card {
+   
+    background-color: rgba(255, 255, 255, 0.2); /* white with 20% opacity */
+  }
+
+  .not-active-card {
+      background-color: rgba(255, 255, 255, 0.05); /* white with 5% opacity */
+  }
 }

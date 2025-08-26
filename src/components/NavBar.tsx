@@ -11,6 +11,10 @@ const NavBar = () => {
         path:""
     },
      {
+        label: "Portfolio",
+        path:""
+    },
+     {
         label: "Contact",
         path:""
     },
@@ -19,7 +23,7 @@ const NavBar = () => {
 ]
   return (
     <> 
-    <div className=' bg-white/2 shadow-white/50 backdrop-blur-md  px-6 py-4 flex flex-row justify-between items-center'>
+    <div className=' bg-transparent shadow-white/50 backdrop-blur-md  px-6 py-4 flex flex-row justify-between items-center'>
          <div className='w-full'>
            <h2 className='text-2xl px-12'> Ryan Logo</h2>
         </div>
