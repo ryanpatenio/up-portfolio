@@ -25,7 +25,7 @@ const NavBar = () => {
     <> 
     <div className=' bg-transparent shadow-white/50 backdrop-blur-md  px-6 py-4 flex flex-row justify-between items-center'>
          <div className='w-full'>
-           <h2 className='text-2xl px-12'> Ryan Logo</h2>
+           <h2 className='text-2xl px-12 text-indigo-dark font-bold'> Ryan</h2>
         </div>
         <div className='w-full  hidden md:block '>
             <nav className=''>

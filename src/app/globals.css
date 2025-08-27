@@ -9,6 +9,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .text-gradient-dark {
+     background: linear-gradient(to right, #b43881 0%, #4a4ad8 50%, #e01a7d 100%);
+    
+   
+  }
   .text-indigo-hover:hover {
      background: linear-gradient(to right, #b43881 0%, #4a4ad8 50%, #e01a7d 100%);
     -webkit-background-clip: text;
@@ -44,4 +49,5 @@
   .not-active-card {
       background-color: rgba(255, 255, 255, 0.05); /* white with 5% opacity */
   }
+
 }

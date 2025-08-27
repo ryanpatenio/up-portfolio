@@ -43,7 +43,7 @@ export function portfolioTabs(){
 
 export function projectsData() {
     const data: projects[] = [
-        {
+        {   
             imgSrc: "https://images.pexels.com/photos/34140/pexels-photo.jpg?cs=srgb&dl=blogging-business-coding-34140.jpg&fm=jpg",
             title: "PayBuddy - Digital Wallet App",
             details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sit dolorum vero at quos inventore similique doloremque, cupiditate labore libero!",
@@ -130,3 +130,11 @@ export function techStacks(){
     ]
      return stack;
 }
+
+//  id: "paybuddy",
+//     title: "PayBuddy - Digital Wallet App",
+//     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+//     images: [
+//       "/projects/paybuddy/1.jpg",
+//       "/projects/paybuddy/2.jpg"
+//     ]
